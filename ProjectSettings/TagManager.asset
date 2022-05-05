@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - ItemButton
+  - SM
+  - ObjectSM
+  - ItemSM
+  - BGM
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: SceneMoveButton
+    uniqueID: 108914439
+    locked: 0
+  - name: ItemPage
+    uniqueID: 1954832685
+    locked: 0
+  - name: TAB
+    uniqueID: 3236304213
+    locked: 0
+  - name: TabButton
+    uniqueID: 3427133667
+    locked: 0
+  - name: Item
+    uniqueID: 4288922535
+    locked: 0
+  - name: Text
+    uniqueID: 3004898369
+    locked: 0
+  - name: MidScene
+    uniqueID: 3749486981
+    locked: 0

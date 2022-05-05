@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 780da0f702a440b4595a7fde2a2f8ce2
+  - enabled: 1
+    path: Assets/Scenes/MidScene0.unity
+    guid: 9a35fc7c4cef84242abc084de902d96f
+  - enabled: 1
+    path: Assets/Scenes/MidScene1.unity
+    guid: 5fadecfc07a03a0499c5d20afa1b126c
+  - enabled: 1
+    path: Assets/Scenes/Tab.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/00.unity
+    guid: 8ba1739afcf5f714b82322e406c0ca6d
+  - enabled: 1
+    path: Assets/Scenes/01.unity
+    guid: d9f5c699510e43a48be7e51d2fd6afdb
+  - enabled: 1
+    path: Assets/Scenes/Drawer.unity
+    guid: 931ec24f02094ce438fc3f4311e64320
+  - enabled: 1
+    path: Assets/Scenes/11.unity
+    guid: 9a5dbb8acc459bf418f28507fb556fea
+  - enabled: 1
+    path: Assets/Scenes/12.unity
+    guid: 3375e4b2d648c374bb3c26c8a9704ac5
+  - enabled: 1
+    path: Assets/Scenes/Clock.unity
+    guid: 72ebe682799ad6545a027f4b6f11464a
+  - enabled: 1
+    path: Assets/Scenes/Postbox.unity
+    guid: 9bd842e81f645a84098a336f24b044ad
+  - enabled: 1
+    path: Assets/Scenes/Case.unity
+    guid: dca97bcbb6c21a14d86ffa62cd51cf04
+  - enabled: 1
+    path: Assets/Scenes/10.unity
+    guid: 7f83d076dc4563d409a08b6521e8fdc7
+  - enabled: 1
+    path: Assets/Scenes/Table.unity
+    guid: 2ed3bdaf6d9d6ee439facdf885002ca7
+  - enabled: 1
+    path: Assets/Scenes/ItemScene/Item0.unity
+    guid: 2fccba6c46ac0e9468dbe3313ebc22ef
+  - enabled: 1
+    path: Assets/Scenes/GameEnd/GameOver0.unity
+    guid: 8f3b80926532e32488b424da817f2ca1
+  - enabled: 1
+    path: Assets/Scenes/GameEnd/GameOver1.unity
+    guid: 57213023e1750f9418c4a6e1efe77143
+  - enabled: 1
+    path: Assets/Scenes/GameEnd/GameOver2.unity
+    guid: da871852935fb4348aee30e89078ac35
+  - enabled: 1
+    path: Assets/Scenes/ItemScene/Item1.unity
+    guid: a9ae3799a0cf39348914c6b163e3748f
+  - enabled: 1
+    path: Assets/Scenes/GameEnd/GameEnd0.unity
+    guid: c7f66eb6afa9c2846bf239357361f90e
+  m_configObjects: {}
