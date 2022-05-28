@@ -29,6 +29,10 @@
         <td><img src = "https://img.itch.zone/aW1hZ2UvMTQ4MTg0NS84ODQ0MzA0LnBuZw==/347x500/E2YKJS.png"></td>
       </table>
   </div>
+    <div>
+    <h2> Game Play Video </h2>
+    https://youtu.be/XSUDbSZ6rL4
+  </div>
   <div>
     <h2> What I learned </h2>
       I made a system with multiple scenes<br><br>
