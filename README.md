@@ -1,4 +1,4 @@
-# Wake-Up-Alice--Wake-Up
+# Wake Up Alice, Wake Up
 <div>
     <h2> 게임 정보 </h2>
     <img src = "https://img.itch.zone/aW1nLzg2NDE1NDYucG5n/347x500/7%2BAG26.png"><br>
