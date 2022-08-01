@@ -1,28 +1,28 @@
 # Wake-Up-Alice--Wake-Up
 <div>
-    <h2> Game Info </h2>
+    <h2> 게임 정보 </h2>
     <img src = "https://img.itch.zone/aW1nLzg2NDE1NDYucG5n/347x500/7%2BAG26.png"><br>
     <img src="https://img.shields.io/badge/Unity-yellow?style=flat-square&logo=Unity&logoColor=FFFFFF"/>
     <img src="https://img.shields.io/badge/Horror-black"/>
     <img src="https://img.shields.io/badge/Puzzle-purple"/>
-    <h4> Development : 2022.04 <br><br>
-    Play Here : https://goodstarter.itch.io/wake-up-alice-wake-up
+    <h4> 개발 일자 : 2022.04 <br><br>
+    플레이 : https://goodstarter.itch.io/wake-up-alice-wake-up
     
   </div>
   <div>
-    <h2> Game Description </h2>
-    <h3> Story </h3>
-     You are alice who lives in london.<br><br>
-     Deep in the night, You can hear your name calling through the window.<br><br>
+    <h2> 게임 설명 </h2>
+    <h3> 스토리 </h3>
+     당신은 런던에 사는 앨리스이다.<br><br>
+     깊은 밤, 창밖에서 누군가 앨리스의 이름을 부른다.<br><br>
      "Wake Up Alice, Wake Up"<br><br>
-    Follow the rabbit and solve the problem.
-    <h3> Game Play </h3>
-     Point and Click Game.<br><br>
-     Information/Eat Button to see or use the item.<br><br>
-     There is a lantern to light up. 
+     토끼를 따라가 문제를 해결해야한다.
+    <h3> 게임 플레이 </h3>
+     포인트 앤 클릭 형식으로 이루어진 방탈출 게잉미다.<br><br>
+     하단에 있는 Information/Eat Button를 통해 아이템을 살펴보거나 사용할 수 있다.<br><br>
+     랜턴을 이용하여 방 안을 밝힐 수 있다. 
   </div>
   <div>
-    <h2> Game Screenshots </h2>
+    <h2> 게임 스크린샷 </h2>
       <table>
         <td><img src = "https://img.itch.zone/aW1hZ2UvMTQ4MTg0NS84ODQ0MzAzLnBuZw==/347x500/kOJfKI.png"></td>
         <td><img src = "https://img.itch.zone/aW1hZ2UvMTQ4MTg0NS84ODQ0MzA1LnBuZw==/347x500/AVV0sq.png"></td>
@@ -30,22 +30,21 @@
       </table>
   </div>
     <div>
-    <h2> Game Play Video </h2>
+    <h2> 게임 플레이 영상 </h2>
     https://youtu.be/XSUDbSZ6rL4
   </div>
   <div>
-    <h2> What I learned </h2>
-      I made a system with multiple scenes<br><br>
-      So there are some optimization issue.<br><br>
-      For that problem, I made animation between scenes.<br><br>
-      And this animation is set to end after the Load Check.<br><br>
-      And relation with multiple scenes, I have to draw and work correctly.<br><br>
-      So I learned many things about SpriteRenderrer and Physics.(Layer order and position)
+    <h2> 배운 점 </h2>
+      여러 씬을 한 화면에 담는 방식으로 제작했다.<br><br>
+      그러다보니 최적화 이슈가 생겼다.<br><br>
+      이 문제를 해결하기 위해 씬 사이에 애니메이션을 추가하고, 로드되었는지를 체크하는 함수를 추가했다.<br><br>
+      또한, 여러 씬 사이에 오브젝트 순서와 스프라이트 순서를 제대로 그리고 제대로 작동해야 했다.<br><br>
+      그래서 SpriteRenderrer and Physics에 대해 많이 배웠다.(Layer order and position)
   </div>
   <div>
-    <h2> What I can fix </h2>
-      Add more contents<br><br>
-      More optimizing
+    <h2> 수정할 점 </h2>
+      컨텐츠 추가<br><br>
+      조금 더 최적화 문제 해결
    <h2> Design Picture </h2>
    <table>
         <td><img src = "https://postfiles.pstatic.net/MjAyMjA0MTFfNTQg/MDAxNjQ5Njc5Mjc1MDYy.scIPPxZrUqD1IwGQFHNcEtM9pEki5LHxQOetbUeqlBAg.Dg9OApan3D7fS2uSO9xaqKeO8u0Z2rmKBYN3aBrUli8g.JPEG.tdj04131/20220411_211214.jpg?type=w773" height = 500></td>
