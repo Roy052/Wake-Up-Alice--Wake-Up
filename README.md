@@ -20,6 +20,8 @@
      포인트 앤 클릭 형식으로 이루어진 방탈출 게잉미다.<br><br>
      하단에 있는 Information/Eat Button를 통해 아이템을 살펴보거나 사용할 수 있다.<br><br>
      랜턴을 이용하여 방 안을 밝힐 수 있다. 
+     <h3> 추가 내용 </h3>
+     itch.io에서 열린 'Themed Horror Game Jam #5' 출품작이다.
   </div>
   <div>
     <h2> 게임 스크린샷 </h2>
