@@ -61,9 +61,10 @@
 
 ```csharp
     
-//씬 확인
+//실행 확인 및 씬 확인
 if(onetime && gameState == 3)
 {
+    //각 씬 스크립트 로드
     if (sceneManagers != null && sceneManagers.Length != stage_map_num[stageNum])
         sceneManagers = GameObject.FindGameObjectsWithTag("SM");
 
@@ -72,7 +73,8 @@ if(onetime && gameState == 3)
 
     if (itemSM != null && (itemSM.Length != 1 || itemSM[0] == null))
         itemSM = GameObject.FindGameObjectsWithTag("ItemSM");
-
+    
+    //게임 시작
     if (sceneLoaded == true && onetime)
     {
         onetime = false;
@@ -81,22 +83,25 @@ if(onetime && gameState == 3)
         sceneManagers[0].GetComponent<MainSM>().ONthisScene();
     }
 
-    //Load Check
+    //로드 확인
     if (sceneLoaded != true && sceneManagers != null && sceneManagers.Length == stage_map_num[stageNum]
         && objectSceneManagers != null && objectSceneManagers.Length == stage_object_map_num[stageNum]
         && itemSM != null && itemSM.Length == 1)
     {
         int i;
         bool check = false;
+    
+        //게임이 진행되는 메인 씬에 있는 오브젝트가 로드 되었는가?
         for (i = 0; i < sceneManagers.Length; i++)
-        {
             if (sceneManagers[i] == null 
                 || sceneManagers[i].GetComponent<MainSM>().LoadCheck() == false) check = true;
-        }
-                    
+        
+        //획득한 아이템을 두는 오브젝트 씬에 있는 오브젝트가 로드 되었는가?
         for (i = 0; i < objectSceneManagers.Length; i++)
             if (objectSceneManagers[i] == null 
                 || objectSceneManagers[i].GetComponent<MainSM>().LoadCheck() == false) check = true;
+        
+        //아이템 정보를 보여주는 스크립트가 로드 되었는가?
         for (i = 0; i < itemSM.Length; i++)
             if (itemSM[i] == null) check = true;
                                       
