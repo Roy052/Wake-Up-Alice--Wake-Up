@@ -60,6 +60,8 @@
     </div>
 
 ```csharp
+    
+//씬 확인
 if(onetime && gameState == 3)
 {
     if (sceneManagers != null && sceneManagers.Length != stage_map_num[stageNum])
@@ -97,6 +99,7 @@ if(onetime && gameState == 3)
                 || objectSceneManagers[i].GetComponent<MainSM>().LoadCheck() == false) check = true;
         for (i = 0; i < itemSM.Length; i++)
             if (itemSM[i] == null) check = true;
+                                      
     if (check == false) sceneLoaded = true;
     }
 
