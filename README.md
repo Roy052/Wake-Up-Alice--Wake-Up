@@ -54,3 +54,51 @@
      <td><img src = "https://postfiles.pstatic.net/MjAyMjA0MTFfMTAz/MDAxNjQ5Njc5Mjc1NTYy.UOR3270-KfcJpc8XXaRSu3jCmNtEOoJMgTWfX9x1t-8g.LB2kQYzJfR4kNbOgUfElVM_nKw6_0aicBIONa5_j6n8g.JPEG.tdj04131/20220411_211253.jpg?type=w773" height = 500></td>
       </table>
   </div>
+<div>
+       <h2> 주요 코드 </h2>
+       <h4> GameManager 로드 확인 코드 </h4>
+    </div>
+
+```csharp
+if(onetime && gameState == 3)
+{
+    if (sceneManagers != null && sceneManagers.Length != stage_map_num[stageNum])
+        sceneManagers = GameObject.FindGameObjectsWithTag("SM");
+
+    if (objectSceneManagers != null && objectSceneManagers.Length != stage_object_map_num[stageNum])
+        objectSceneManagers = GameObject.FindGameObjectsWithTag("ObjectSM");
+
+    if (itemSM != null && (itemSM.Length != 1 || itemSM[0] == null))
+        itemSM = GameObject.FindGameObjectsWithTag("ItemSM");
+
+    if (sceneLoaded == true && onetime)
+    {
+        onetime = false;
+        Debug.Log("onetime");
+        mapNum = 0;
+        sceneManagers[0].GetComponent<MainSM>().ONthisScene();
+    }
+
+    //Load Check
+    if (sceneLoaded != true && sceneManagers != null && sceneManagers.Length == stage_map_num[stageNum]
+        && objectSceneManagers != null && objectSceneManagers.Length == stage_object_map_num[stageNum]
+        && itemSM != null && itemSM.Length == 1)
+    {
+        int i;
+        bool check = false;
+        for (i = 0; i < sceneManagers.Length; i++)
+        {
+            if (sceneManagers[i] == null 
+                || sceneManagers[i].GetComponent<MainSM>().LoadCheck() == false) check = true;
+        }
+                    
+        for (i = 0; i < objectSceneManagers.Length; i++)
+            if (objectSceneManagers[i] == null 
+                || objectSceneManagers[i].GetComponent<MainSM>().LoadCheck() == false) check = true;
+        for (i = 0; i < itemSM.Length; i++)
+            if (itemSM[i] == null) check = true;
+    if (check == false) sceneLoaded = true;
+    }
+
+}
+```
